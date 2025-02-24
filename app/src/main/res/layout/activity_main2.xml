@@ -1,0 +1,78 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_rawRes="@raw/back"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/txtAnm"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:textSize="55sp"
+            android:textColor="#1B3CE7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/secureshield"
+            android:animation="@anim/fade_in"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn1"
+            android:textColor="@color/white"
+            android:background="@drawable/ripple_effect"
+            android:layout_margin="20dp"
+            android:text="@string/scan_threats"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn2"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/ripple_effect"
+            android:text="@string/scan_permissions"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn3"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/ripple_effect"
+            android:textSize="12sp"
+            android:text="@string/scan_temp_files"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn4"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/ripple_effect"
+            android:text="@string/history"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

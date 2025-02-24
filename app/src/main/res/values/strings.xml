@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HackerView</string>
+    <string name="trayambkesh">Trayambkesh</string>
+    <string name="pick_any_featue">Pick Any Featue</string>
+    <string name="unusual_activities">Unusual Activities</string>
+    <string name="scan_threats">Scan Threats</string>
+    <string name="reports">TempFiles</string>
+    <string name="history">History</string>
+    <string name="check_developer_options">Check Developer Options</string>
+    <string name="click_to_check_developer_options">Click to Check Developer Options</string>
+    <string name="scan_temp_files">Scan Temp Files</string>
+    <string name="press_scan_to_check_for_temporary_files">Press to check Temporary Files</string>
+    <string name="delete_temp_files">Delete Temp Files</string>
+    <string name="scan_for_threats">Scan for Threats</string>
+    <string name="secureshield">SecureShield</string>
+    <string name="scan_permissions">Scan Permissions</string>
+</resources>

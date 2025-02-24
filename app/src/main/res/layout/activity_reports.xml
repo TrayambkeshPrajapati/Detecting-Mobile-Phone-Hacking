@@ -1,0 +1,64 @@
+<LinearLayout android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/grad"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/press_scan_to_check_for_temporary_files"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+    </ScrollView>
+    <!-- Scanning Animation (Initially Hidden) -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/scanAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_rawRes="@raw/scan"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"
+        android:visibility="gone"/>
+
+    <!-- Clickable Scan Button Animation -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/btnAnimation"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:lottie_rawRes="@raw/btn"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:clickable="true"/>
+
+    <!-- Progress Bar (Initially Hidden) -->
+    <ProgressBar
+        android:id="@+id/loadingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleLarge"/>
+
+    <!-- Delete Button (Initially Hidden) -->
+    <Button
+        android:id="@+id/deleteButton"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_temp_files"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+</LinearLayout>
