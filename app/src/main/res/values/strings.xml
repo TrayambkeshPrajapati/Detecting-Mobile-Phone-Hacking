@@ -14,4 +14,5 @@
     <string name="scan_for_threats">Scan for Threats</string>
     <string name="secureshield">SecureShield</string>
     <string name="scan_permissions">Scan Permissions</string>
+    <string name="networksecurtiy">Network Securtiy</string>
 </resources>

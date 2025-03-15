@@ -52,11 +52,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Button b4 = findViewById(R.id.btn4);
+        Button b4 = findViewById(R.id.btn3);
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,history.class);
+                Intent intent = new Intent(MainActivity.this,reports.class);
                 startActivity(intent);
             }
         });
