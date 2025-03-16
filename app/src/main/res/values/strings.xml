@@ -15,4 +15,5 @@
     <string name="secureshield">SecureShield</string>
     <string name="scan_permissions">Scan Permissions</string>
     <string name="networksecurtiy">Network Securtiy</string>
+    <string name="checking_network">Checking Network...</string>
 </resources>
