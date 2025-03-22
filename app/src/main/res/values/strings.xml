@@ -16,4 +16,5 @@
     <string name="scan_permissions">Scan Permissions</string>
     <string name="networksecurtiy">Network Securtiy</string>
     <string name="checking_network">Checking Network...</string>
+    <string name="todo">TODO</string>
 </resources>

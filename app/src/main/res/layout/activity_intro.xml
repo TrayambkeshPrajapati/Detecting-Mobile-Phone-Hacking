@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/background"
-        />
+        android:contentDescription="@string/todo" />
 
 <com.airbnb.lottie.LottieAnimationView
     android:layout_width="match_parent"
@@ -29,7 +29,8 @@
         android:layout_centerHorizontal="true"
         android:textColor="@color/white"
         android:textAlignment="center"
-        android:textSize="50dp"
-        android:text="SecurShield"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:text="@string/secureshield"
         android:layout_marginBottom="50dp" />
 </RelativeLayout>
